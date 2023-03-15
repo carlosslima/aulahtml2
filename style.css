@@ -11,17 +11,34 @@ body{
 }
 nav{
   position:absolute;
-  top:10px;
+  top:110px;
   right: 0;
 }
 nav li{
-   display:inline;
+   display: inline;
    margin:0 0 0 15px;
 }
 nav a{
   text-transform: uppercase;
   color: #000000;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
+}
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+form{
+  margin: 40px 0;
+  
+}
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 40%;;
+  border-radius: 25px;
+  border-color: #31291e;
+  border-style:dashed;
 }
