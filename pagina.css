@@ -31,19 +31,31 @@ body{
 }
 .beneficios{
 	background-color: #d1ad7d;
+	font-size: 19px;
+	text-align: center;
 
 }
 .titulo3{
 background:#c79350;
 padding: 20px;
+font-weight: bolder;
+font-style:italic;
+
 }
 ul{
 	display:inline;
 	width:50%;
 	vertical-align: top;
-	margin-right: 15;}
+	margin-right: 15;
+}
+
 .benificios2{
 	width: 30%;
 
+}
+.missao{
+	text-align: center;
+	font-color:black;
+	font-size:17px;
 }
 

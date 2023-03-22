@@ -1,5 +1,6 @@
 header{
   background: #c79350;
+  filter: drop-shadow(3px 3px 3px black);
 }
 body{
   background: #d6a360;
@@ -9,6 +10,12 @@ body{
   width: 940px;
   margin: 0 auto;
 }
+.titulocontato{
+  text-align: center;
+  font-weight: bolder;
+  font-size:25px;
+  font-style:italic;
+}
 nav{
   position:absolute;
   top:110px;
@@ -17,6 +24,7 @@ nav{
 nav li{
    display: inline;
    margin:0 0 0 15px;
+   filter: drop-shadow(1px 1px 1px orange);
 }
 nav a{
   text-transform: uppercase;
@@ -45,9 +53,36 @@ form label, form legend{
   padding: 10px 25px;
   width: 30;
   border-radius: 25px;
-  border-color: #31291e;
-  border-style:dashed;
+  border-color:grey;
+  border-width:2px;
+  filter: drop-shadow(1px 1px 2px #CCCCCC);
+
 }
 .checkbox{
   margin 20px 0;
+}
+.legenda{
+  font-weight: bolder;
+  font-size: 20px;
+  font-style: italic;
+}
+.checkbox{
+  margin: 20px 0;
+
+}
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  border-radius: 5px;
+  border:none;
+  filter: drop-shadow(1px 1px 4px white);
+  background: limegreen;
+  color:white;
+  font-weight: bolder;
+  transition: 1s all;
+  cursor: pointer;
+}
+.enviar:hover{
+  background: #1bf752;
+  transform: scale(1.2);
 }

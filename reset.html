@@ -22,9 +22,9 @@
 
     </header>
     <main>
-      <h2> Contato </h2>
+      <h2 class="titulocontato"> Contato </h2>
       <form>
-        <label for="nomesorenome"> Nome e Sobrenome </label>
+        <label for="nomesobrenome"> Nome e Sobrenome </label>
         <input type="text" id="nomesobrenome" class="input-padrao" required>
 
         <label for="email">Email</label>
@@ -37,7 +37,7 @@
         <textarea cols="70" rows="10" id="mensagem" class="input-padrao"required> </textarea>
 
     <fieldset>
-      <legend>Como prefere o nosso contato?</legend>
+      <legend class="legenda">Como prefere o nosso contato?</legend>
       
       <label for="radio-email"><input type="radio" name="contato" value="email"id="radio-email">
       Email</label>
@@ -47,6 +47,17 @@
 
       <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"id="radio-whatsapp">
       Whatsapp</label>
-      </fieldset>  
+      </fieldset>
+      <fieldset>
+        <legend class="legenda">Qual horário prefere ser atendido?</legend>
+        <select>
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+      </fieldset> 
+
+      <label class="checkbox"><input type="checkbox"checked>Gostaria de receber nossas novidades por email?</label>
+      <input type="submit" value="Enviar formulário" class="enviar">
   </body>
 </html>
