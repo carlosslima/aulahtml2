@@ -1,9 +1,9 @@
 header{
-  background: #c79350;
+  background: #5ec750;
   filter: drop-shadow(3px 3px 3px black);
 }
 body{
-  background: #d6a360;
+  background: #a0e497;
 }
 .caixa{
   position: relative;
@@ -24,7 +24,7 @@ nav{
 nav li{
    display: inline;
    margin:0 0 0 15px;
-   filter: drop-shadow(1px 1px 1px orange);
+   filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
 }
 nav a{
   text-transform: uppercase;
@@ -59,7 +59,7 @@ form label, form legend{
 
 }
 .checkbox{
-  margin 20px 0;
+  margin:20px 0;
 }
 .legenda{
   font-weight: bolder;
@@ -90,11 +90,22 @@ table{
   margin: 20px 0 40px;
 }
 thead{
-  background:#c79350;
+  background:#5ec750;
   color: white;
   font-weight: bold;
 }
 td,th{
   border: 1px solid #000000;
   padding: 8px 15px;
+}
+footer{
+  text-align: center;
+  background:black      ;
+  padding: 40px 0;
+}
+.copyright{
+  color:#FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
+
 }
